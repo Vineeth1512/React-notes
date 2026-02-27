@@ -801,7 +801,7 @@
     In the example below, the text inside `<h1>` tag is returned as
     JavaScript function to the render function.
 
-    `jsx harmony export default function App() {   return (       <h1 className="greeting">{"Hello, this is a JSX Code!"}</h1>   ); }`
+    ```jsx harmony export default function App() {   return (       <h1 className="greeting">{"Hello, this is a JSX Code!"}</h1>   ); }```
     If you don't use JSX syntax then the respective JavaScript code
     should be written as below,
 
