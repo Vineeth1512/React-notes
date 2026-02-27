@@ -801,7 +801,13 @@
     In the example below, the text inside `<h1>` tag is returned as
     JavaScript function to the render function.
 
-    ```jsx harmony export default function App() {   return (       <h1 className="greeting">{"Hello, this is a JSX Code!"}</h1>   ); }```
+    ```jsx
+     harmony export default function App() {
+    return (
+    <h1 className="greeting">{"Hello, this is a JSX Code!"}</h1>
+    );
+   }  
+      ```
     If you don't use JSX syntax then the respective JavaScript code
     should be written as below,
 
@@ -843,7 +849,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-5.  ### What is the difference between Element and Component?
+6.  ### What is the difference between Element and Component?
 
     An *Element* is a plain object describing what you want to appear on
     the screen in terms of the DOM nodes or other components. *Elements*
@@ -902,7 +908,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-6.  ### How to create components in React?
+7.  ### How to create components in React?
 
     Components are the building blocks of creating User Interfaces(UI)
     in React. There are two possible ways to create a component.
@@ -922,7 +928,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-7.  ### When to use a Class Component over a Function Component?
+8.  ### When to use a Class Component over a Function Component?
 
     After the addition of Hooks(i.e. React 16.8 onwards) it is always
     recommended to use Function components over Class components in
@@ -958,7 +964,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-8.  ### What are Pure Components?
+9.  ### What are Pure Components?
 
     Pure components are the components which render the same output for
     the same state and props. In function components, you can achieve
@@ -1022,7 +1028,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-9.  ### What is state in React?
+10.  ### What is state in React?
 
     *State* of a component is an object that holds some information that
     may change over the lifetime of the component. The important point
@@ -1088,7 +1094,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-10. ### What are props in React?
+11. ### What are props in React?
 
     *Props* are inputs to components. They are single values or objects
     containing a set of values that are passed to components on creation
